@@ -1,0 +1,93 @@
+@media (max-width:1280px)
+{
+    section.works .image-box{
+        display: flex;
+        overflow:scroll;
+    }
+    
+}
+
+@media (max-width:800px)
+{
+    nav .container .logo{
+        margin:auto 100px;
+    }
+
+    nav .container .inner{
+        margin:auto 100px;
+    }
+
+    section.profile{
+        flex-direction: column;
+        clip-path: none;
+        align-items: flex-start;
+        /* background: WHITE;
+        color: blue; */
+    }
+
+    section.profile .left{
+        flex-direction: column;
+        margin:auto;
+    }
+
+    section.profile .left img{
+        width: 400px;
+        height: 400px;
+    }
+
+    section.profile .left h2{
+        margin:20px auto;
+        color: blue;
+    
+    }
+
+    section.profile .left .about{
+        margin:20px auto;
+    }
+
+    section.profile .left .pic_block span{
+        display:none;
+    }
+
+    section.profile .right{
+        align-items: center;
+        margin-left: 270px;
+    }  
+    
+    section.about h1{
+       text-align: center;
+    }
+
+    section.about .content{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    section.about .content .left{
+        text-align: center;
+    }
+
+    section.about .content .right{
+        display: none;
+    }
+
+    section.Education_skills h1{
+        text-align: center;
+    }
+
+    section.Education_skills .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.Education_skills .content .right{
+        display: none;
+    }
+
+    section.works .image-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
