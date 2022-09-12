@@ -423,7 +423,7 @@ section.contact-form .container .column input{
     height: 40px;
     margin: auto 100px;
     box-sizing:border-box;
-    border: 5px solid rgb(247, 106, 129) ;
+    /* border: 5px solid rgb(247, 106, 129) ; */
     border-radius: 7px;
     opacity: 0.8;
 }
@@ -440,7 +440,7 @@ section.contact-form .container .msg{
     width:600px;
     height: 105px;
     box-sizing:border-box;
-    border: 5px solid rgb(247, 106, 129) ;
+    /* border: 5px solid rgb(247, 106, 129) ; */
     border-radius: 7px;
     opacity: 0.8;    
 }
